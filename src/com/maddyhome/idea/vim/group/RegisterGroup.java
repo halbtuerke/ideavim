@@ -46,7 +46,7 @@ public class RegisterGroup {
   /**
    * The register key for the default register
    */
-  public static final char REGISTER_DEFAULT = '"';
+  public static final char REGISTER_DEFAULT = '+';
 
   private static final String WRITABLE_REGISTERS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-*+_/\"";
   private static final String READONLY_REGISTERS = ":.%#=/";
